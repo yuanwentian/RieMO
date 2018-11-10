@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 set(CMAKE_CXX_STANDARD 17)
-
+add_definitions(-std=c++11)
 #Make sure that custom modules like FindGoogleTest are found
 list(INSERT CMAKE_MODULE_PATH 0 ${CMAKE_CURRENT_LIST_DIR}/cmake)
 

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.8)
 set(CMAKE_CXX_STANDARD 17)
-
+add_definitions(-std=c++11)
 
 if(CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR) # if building as top-level
 	option(traj_opt_build_tests "Build all of trajectoryOptimization's own tests." OFF)

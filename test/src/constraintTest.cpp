@@ -11,6 +11,7 @@ using namespace trajectoryOptimization::utilities;
 using namespace trajectoryOptimization::dynamic; 
 using namespace testing;
 using namespace ranges;
+using namespace std;
 
 class kinematicGoalConstraintTest:public::Test{
 	protected:

@@ -6,6 +6,7 @@
 
 using namespace trajectoryOptimization::cost;
 using namespace trajectoryOptimization::utilities;
+using namespace std;
 
 TEST(costTest, controlSquare_isZero_whenControlsAreAllZero) { 
 	const unsigned numberOfPoints = 3;
